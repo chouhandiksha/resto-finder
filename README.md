@@ -1,11 +1,13 @@
 # resto-finder
-# 
 
 
+
+
+
+**Professor:** Dr. Sambit Sahu
 
 **Students:** Diksha Chouhan, Manan Chawda
 
-**Professor:** Dr. Sambit Sahu
 **TAs:** Changhan Xie, Naga Bodepudi, Ruinan Zhang and Rahul Barhate
 
 
