@@ -1,4 +1,6 @@
-# resto-finder
+# Dining Concierge Chatbot
+
+## resto-finder
 
 
 
