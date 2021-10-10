@@ -285,7 +285,7 @@ def send_sqs_message(QueueName, msg_body):
     queue = sqs.get_queue_by_name(QueueName=QueueName)
    
     try:
-        response = queue.send_message(MessageBody=json.dumps(msg_body))
+        response = queue.send_message(MessageBody=msg_body)
         
     except ClientError as e:
         logging.error(e)
