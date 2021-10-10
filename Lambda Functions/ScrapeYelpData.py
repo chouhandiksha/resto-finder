@@ -8,7 +8,7 @@ ans = []
 def lambda_handler(event, context):
     scrape_yelp_data()
 url = "https://api.yelp.com/v3/businesses/search"
-api_key = "-M9TV5cDWd1Y9Svqc9u9dpZrx-fVhQdDlUDjmK46lKLpjkk2HuNSxxWS0WiDKjFhQXueEpm6gUH28pjrZfX1Z2YqIx-vM-ej319Evh0JY845jyHXzKWJ0VXe0R5MYXYx"
+api_key = "key"
 def search(cuisine, offset):
     url_params = {
         'location': 'new york',

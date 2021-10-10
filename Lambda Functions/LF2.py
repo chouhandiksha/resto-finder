@@ -12,7 +12,7 @@ def lambda_handler(event, context):
     service = "es"
     
     credentials = boto3.Session().get_credentials()
-    awsauth = AWS4Auth("AKIAZZ7HUOGP647BH67Y", "tO00Mqs7OUGCccK5/mZzIjyQh90NEvo8qRRxcu8L", region, service)
+    awsauth = AWS4Auth("key", "value", region, service)
     
     #Dynamo db resource
     dynamodb = boto3.resource('dynamodb', region_name='us-west-2')
