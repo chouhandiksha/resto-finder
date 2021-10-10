@@ -1,9 +1,3 @@
-"""
-This is an implementation of the Lex Code Hook Interface for diningSearchIntent Intent
-which provides slot details.
-
-"""
-
 import json
 import datetime
 import time
@@ -16,7 +10,7 @@ logger = logging.getLogger()
 logger.setLevel(logging.DEBUG)
 
 
-# --- Helpers that build all of the responses ---
+
 
 
 def elicit_slot(session_attributes, intent_name, slots, slot_to_elicit, message):
@@ -102,21 +96,6 @@ def try_ex(func):
 def isvalid_city(city):
     valid_cities = ['manhattan', 'brooklyn', 'queens', 'bronx', 'long island']
     return city.lower() in valid_cities
-
-
-
-# def isvalid_date(date):
-#     try:
-#         dateutil.parser.parse(date)
-#         return True
-#     except ValueError:
-#         return False
-
-
-def add_days(date, number_of_days):
-    new_date = dateutil.parser.parse(date).date()
-    new_date += datetime.timedelta(days=number_of_days)
-    return new_date.strftime('%Y-%m-%d')
 
 
 def build_validation_result(isvalid, violated_slot, message_content):
