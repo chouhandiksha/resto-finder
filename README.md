@@ -8,7 +8,7 @@
 
 **Professor:** Dr. Sambit Sahu
 
-**Students:** Diksha Chouhan, Manan Chawda
+**Students:** Diksha Chouhan(dc4454), Manan Chawda(mrc9419)
 
 **TAs:** Changhan Xie, Naga Bodepudi, Ruinan Zhang and Rahul Barhate
 
