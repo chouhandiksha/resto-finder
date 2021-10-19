@@ -8,7 +8,7 @@ def lambda_handler(event, context):
     region = "us-west-2"
     service = "es"
     credentials = boto3.Session().get_credentials()
-    awsauth = AWS4Auth("AKIAZZ7HUOGP647BH67Y", "tO00Mqs7OUGCccK5/mZzIjyQh90NEvo8qRRxcu8L", region, service)
+    awsauth = AWS4Auth("key", "value", region, service)
     es = Elasticsearch(
         hosts=[{'host': host, 'port': 443}],
         http_auth=awsauth,
